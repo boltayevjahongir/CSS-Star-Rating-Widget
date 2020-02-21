@@ -28,7 +28,7 @@
         .rating label {
             display: block;
             cursor: pointer;
-            width: 50px;
+            width: 100px;
         }
         
         .rating label:before {
@@ -36,7 +36,7 @@
             font-family: fontAwesome;
             position: relative;
             display: block;
-            font-size: 50px;
+            font-size: 100px;
             color: #101010;
         }
         
@@ -45,7 +45,7 @@
             font-family: fontAwesome;
             position: absolute;
             display: block;
-            font-size: 50px;
+            font-size: 100px;
             color: #e0f809;
             top: 0;
             opacity: 0;
@@ -58,6 +58,18 @@
         .rating input:checked~label:after {
             opacity: 1;
         }
+        
+        h1 {
+            font-size: 100px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            vertical-align: middle;
+            color: yellow;
+            margin-top: 200px;
+            text-shadow: 5px 5px 50px yellow;
+            transform: perspective(500px) translateZ(50px);
+        }
     </style>
 </head>
 
@@ -69,6 +81,8 @@
         <input type="radio" name="star" id="star4"><label for="star4"></label>
         <input type="radio" name="star" id="star5"><label for="star5"></label>
     </div>
+    <h1>BestCoder.uz</h1>
+
 </body>
 
 </html>
